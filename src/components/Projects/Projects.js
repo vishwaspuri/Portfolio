@@ -1,18 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import BlogCard from "./BlogsCards";
+// import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import medhub from "../../Assets/Projects/medHub.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import covid from "../../Assets/Projects/covid19-1600x900.png";
+import powertrain from "../../Assets/Projects/powertrain.jpeg";
+// import medhub from "../../Assets/Projects/medHub.png";
+import dim from "../../Assets/Projects/dim.jpg";
+import socors from "../../Assets/Projects/socors.jpeg";
+// import algo from "../../Assets/Projects/algo.png";
+// import plant from "../../Assets/Projects/plant.jpeg";
 
 function Projects() {
   return (
@@ -28,46 +28,45 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={covid}
               isBlog={false}
-              title="Leaf Disease Prediction"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Covifight"
+              description="Covifight is a 3-tier contract tracing solution used for tracing Covid-19 virus. The solution leverages neo4j graph database, modern machine learning techniques and social network analysis to provide it's user with alerts related to covid-19."
+              link="https://devpost.com/software/covifight"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={powertrain}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Powertrain mounting using data science techniques"
+              description="The powerplant or engine of a car is arguably the single most vital piece of equipment in an automobile. Its positioning and drive-train connection are obviously subjects of a great deal of research and analysis. The project uses gaussian optimization to find optimum position of powertrain in order to minimize noise and vibrations."
+              link="https://github.com/vishwaspuri/nvh-datascience-python-implementation"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={socors}
               isBlog={false}
-              title="Suicide Ideation Prediction"
-              description="Using 'Natural Launguage Processing' for detection of posts in social media platform to identity if a person is affected by any mental illness and thus helping in sucide prevention."
-              link="https://gist.github.com/soumyajit4419/ef44d41fdc510637c7f6730d1bbce2ed"
+              title="Socors"
+              description="I developed a web application for consumers to purchase goods from local shops based on their location and a web application for sellers to register on the socors platform and control how their shops are shown to the consumers"
+              link="https://github.com/vishwaspuri/socors"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eeg}
+              imgPath={dim}
               isBlog={false}
-              title="Emotion Predcition from EEG Signals"
-              description="Using EEG signals from 'AMIGOS' Dataset to extract features and train a classifier that helps in detection of human emotions from Brain Signals."
-              link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
+              title="Analysis of supervised and unsupervised dimensionality reduction algorithms in R"
+              description="Worked on analysing the effect of dimensionality reduction on the accuracy of classification algorithms. Implemented PCA, SVM, FLD and KNN on the iris dataset to compare their relative accuracy on the dataset"
+              link="https://github.com/vishwaspuri/MLAssignmentR"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={medhub}
               isBlog={false}
@@ -77,9 +76,9 @@ function Projects() {
               Giving an complete health Analytics to doctors of Patients as well as Doctors preseving user privacy."
               link="https://github.com/soumyajit4419/MedHub_360"
             />
-          </Col>
+          </Col> */}
         </Row>
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
         </h1>
         <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
@@ -100,7 +99,7 @@ function Projects() {
               site="medium.com"
             />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

@@ -15,19 +15,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I started programming when I was 15, some of the things that I have learnt throughout my journey are...
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                <b className="purple"> Golang, Python and Javascript. </b>
               </i>
               <br />
               <br />
               My current focus is on &nbsp;
               <i>
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
+                  networks and security systems.
                 </b>
               </i>
               <br />
@@ -35,11 +34,11 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with
               <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
+                <b className="purple"> Golang, and Modern JavaScript/Python frameworks  </b>
               </i>
               like
               <i>
-                <b className="purple"> Node.js and React.js</b>
+                <b className="purple"> Express.Js and Django</b>
               </i>
             </p>
           </Col>
@@ -58,7 +57,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/vishwaspuri"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -68,7 +67,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/VishwasPuri4"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/vishwas-puri-abb053109/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/vishwas_puri_/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

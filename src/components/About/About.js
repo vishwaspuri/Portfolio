@@ -41,25 +41,29 @@ function About() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-cplusplus-line" />
           <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
+          <Techstack iconName="devicon-go-plain" />
           <Techstack iconName="devicon-javascript-plain " />
+          <Techstack iconName="devicon-bash-plain" />
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
+          <Techstack iconName="devicon-django-plain " />
           <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
           <Techstack iconName="devicon-mongodb-plain-wordmark" />
+          <Techstack iconName="devicon-postgresql-plain-wordmark" />
+          <Techstack iconName="devicon-amazonwebservices-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          <Techstack iconName="devicon-docker-plain-wordmark" />
+          <Techstack iconName="devicon-nginx-original-wordmark" />
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-linux-plain" />
+          <Techstack iconName="devicon-jetbrains-plain" />
           <Techstack iconName="cib-visual-studio-code" />
           <Techstack iconName="cib-anaconda" />
           <Techstack iconName="cib-postman" />
-          <Techstack iconName="cib-zeit" />
+          <Techstack iconName="devicon-github-original-wordmark" />
           <Techstack iconName="cib-heroku" />
         </Row>
         <Github />

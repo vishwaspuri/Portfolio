@@ -10,16 +10,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Created with ❤️ by Vishwas Puri</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          {/* <h3>Copyright © {year} SB</h3> */}
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/vishwaspuri"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-github"></i>
@@ -27,7 +27,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/VishwasPuri4"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-twitter"></i>
@@ -35,7 +35,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/vishwas-puri-abb053109/"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-linkedin-in"></i>
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                href="https://www.instagram.com/vishwas_puri_/"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-instagram"></i>

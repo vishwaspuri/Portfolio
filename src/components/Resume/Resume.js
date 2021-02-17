@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Resume.pdf";
+import pdf from "../../Assets/VishwasPuri_Backend.pdf";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -42,14 +42,23 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
+              title="Software developer intern [Variety innovation ventures Ltd]"
               date="June 2020 - August 2020"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Implemented backend for track and trace system for assembly lines using Node.Js along with managing cloud infrastructure",
+                "Programmed edge device(Microprocessor) to process data and control the physical end-point by implementing pre-decided constraints",
+                "Successfully built a prototype for track and trace system in 2 months in a team of 3 people"
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            <Resumecontent
+              title="Data Science intern [Hertztech Solutions Private Limited, Chennai]"
+              date="May 2020 - June 2020"
+              content={[
+                "Created a model for the Powertrain Mounting System(PMS) with an objective to find the maximum force transmitted from the frame to the PMS",
+                "Used Bayesian Optimization to find the optimum position of mounts in order to minimize the force transmitted from frame to PMS. After the optimization, I was able to reduce the force transmitted by 40 percent."
+              ]}
+            />
+            {/* <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
               title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
               content={[
@@ -61,27 +70,27 @@ function Resume() {
               content={[
                 "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
-            />
+            /> */}
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
+              title="M.Sc. Physics and B.E. Mechanical [BIT Pilani] "
               date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              content={["Double degree"]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
+              title="12TH BOARD [Delhi Public School, Gurgaon]"
               date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              content={["Precentage: 92% (Best 4 subjects)"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
+              title="10TH BOARD [Delhi Public School, Gurgaon] "
+              date="2014 - 2015"
+              content={["Precentage: 92%"]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
+            {/* <h3 className="resume-title">Ranks and Achivements</h3> */}
+            {/* <Resumecontent
               title=""
               content={[
                 `Current rank in Spoj ${spojRank}`,
@@ -89,7 +98,7 @@ function Resume() {
                 "Top Performer in Code-Break 1.0",
                 "Participant in Hack-A-Bit 2019",
               ]}
-            />
+            /> */}
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
