@@ -15,7 +15,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I started programming when I was 15, some of the things that I have learnt throughout my journey are...
+              I started programming when I was 15. Here are some of the things I'm good at...
               <br />
               <br />I am fluent in
               <i>
@@ -34,11 +34,11 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with
               <i>
-                <b className="purple"> Golang, and Modern JavaScript/Python frameworks  </b>
+                <b className="purple"> Golang, and Modern JavaScript/Python frameworks     </b>
               </i>
               like
               <i>
-                <b className="purple"> Express.Js and Django</b>
+                <b className="purple"> Express.Js and Django.</b>
               </i>
             </p>
           </Col>
