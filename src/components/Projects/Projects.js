@@ -11,6 +11,7 @@ import powertrain from "../../Assets/Projects/powertrain.jpeg";
 // import medhub from "../../Assets/Projects/medHub.png";
 import dim from "../../Assets/Projects/dim.jpg";
 import socors from "../../Assets/Projects/socors.jpeg";
+import chatbot from "../../Assets/Projects/chatbot.png";
 // import algo from "../../Assets/Projects/algo.png";
 // import plant from "../../Assets/Projects/plant.jpeg";
 
@@ -26,6 +27,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatbot}
+              isBlog={false}
+              title="Interactive Voice Response Multi-lingual ChatBot"
+              description="Created a voice enabled chatbot capable of speech-to-speech conversation in 4 languages for creating everday functions like getting appointments, checking payment statuses etc."
+              link="https://github.com/vishwaspuri/Interactive-Voice-Response"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={covid}
@@ -65,6 +75,8 @@ function Projects() {
               link="https://github.com/vishwaspuri/MLAssignmentR"
             />
           </Col>
+
+          
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
