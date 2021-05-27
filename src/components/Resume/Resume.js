@@ -7,6 +7,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import pdf from "../../Assets/VishwasPuri_Backend.pdf";
+import ResumeContent from "./ResumeContent";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -100,6 +101,15 @@ function Resume() {
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Achievements</h3>
+            <ResumeContent
+              title="AB InBev Maverick 2.0 Botathon Winner"
+              date="Interactive Voice Response(IVR) Chatbot"
+              content={[
+                "Secured second runners up position AB InBev Maverick Botathon",
+                "Created IVR chatbot capable of conversing in multiple languages",
+                "The chatbot created can be used for business usecases like scheduling appointments, checking payment status etc."
+              ]}
+            />
             <Resumecontent 
               title="#EUvsVirus Global Challenge Winner"
               date="Project CoviFight"
@@ -115,9 +125,18 @@ function Resume() {
               ]}
             />
             <Resumecontent 
-              title="COVID19 Hack Challenge"
+              title="COVID-19 Hack Challenge"
               content={[
                 "Aimed to develop and launch open-source code using AI and/or blockchain to combat COVID-19, reduce risks from future infectious outbreaks, and cope with the COVID-19 pandemic situation. The award is a year of Wolfram One Personal Edition and a one-year subscription to Wolfram Alpha Pro."
+              ]}
+            />
+            <ResumeContent
+              title="AB InBev Maverick 2.0 Hackathon Winner"
+              date="Cross-sell Up-sell Recommendation System"
+              content={[
+                "Finalist at AB InBev Maverick 2.0 Hackathon",
+                "Created Cross-sell Up-sell based recommendation system",
+                "The chatbot has proven metrics to increase the revenue"
               ]}
             />
           </Col>

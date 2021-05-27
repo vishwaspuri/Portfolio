@@ -27,7 +27,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatbot}
               isBlog={false}
@@ -45,7 +45,6 @@ function Projects() {
               link="https://devpost.com/software/covifight"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={powertrain}
@@ -55,7 +54,6 @@ function Projects() {
               link="https://github.com/vishwaspuri/nvh-datascience-python-implementation"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={socors}
@@ -65,7 +63,6 @@ function Projects() {
               link="https://github.com/vishwaspuri/socors"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dim}
@@ -75,20 +72,6 @@ function Projects() {
               link="https://github.com/vishwaspuri/MLAssignmentR"
             />
           </Col>
-
-          
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={medhub}
-              isBlog={false}
-              title="Making Healthcare Easy and Hassle Free"
-              description="Extract, store and retrieve medical information from Medical Reports using OCR.
-              Display the information online Graphically for the use of Patients as well as Doctors only with Authorised Access.
-              Giving an complete health Analytics to doctors of Patients as well as Doctors preseving user privacy."
-              link="https://github.com/soumyajit4419/MedHub_360"
-            />
-          </Col> */}
         </Row>
         {/* <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
