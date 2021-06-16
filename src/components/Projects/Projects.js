@@ -12,6 +12,7 @@ import powertrain from "../../Assets/Projects/powertrain.jpeg";
 import dim from "../../Assets/Projects/dim.jpg";
 import socors from "../../Assets/Projects/socors.jpeg";
 import chatbot from "../../Assets/Projects/chatbot.png";
+import virTryOn from "../../Assets/Projects/1.png"
 // import algo from "../../Assets/Projects/algo.png";
 // import plant from "../../Assets/Projects/plant.jpeg";
 
@@ -27,6 +28,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={virTryOn}
+              isBlog={false}
+              title="Virtual Trial Room"
+              description="Built a augmented reality based virtual trial room to try on clothes and find the size that fits best. The application is built using Unity and Vuforia engine. A golang server was also created for storage and editing video streams."
+              link="https://github.com/vishwaspuri/VirtualTryOn"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatbot}

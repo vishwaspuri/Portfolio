@@ -102,10 +102,18 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Achievements</h3>
             <ResumeContent
+              title="Amazon HackOn 2021"
+              date="Virtual Try-On"
+              content={[
+                "Won runner up position at Amazon HackOn 2021",
+                "Created a virtual trial room to try clothes and find correct size"
+              ]}
+            />
+            <ResumeContent
               title="AB InBev Maverick 2.0 Botathon Winner"
               date="Interactive Voice Response(IVR) Chatbot"
               content={[
-                "Secured second runners up position AB InBev Maverick Botathon",
+                "Secured second runners up position AB InBev Maverick 2.0 Bot-a-thon",
                 "Created IVR chatbot capable of conversing in multiple languages",
                 "The chatbot created can be used for business usecases like scheduling appointments, checking payment status etc."
               ]}
@@ -131,7 +139,7 @@ function Resume() {
               ]}
             />
             <ResumeContent
-              title="AB InBev Maverick 2.0 Hackathon Winner"
+              title="AB InBev Maverick 2.0 Hackathon Finalist"
               date="Cross-sell Up-sell Recommendation System"
               content={[
                 "Finalist at AB InBev Maverick 2.0 Hackathon",
